@@ -4,7 +4,6 @@ import styles from "./ProductCarrinho.module.css";
 
 //Ícone
 
-import { FaShoppingCart } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
 
 //utils
@@ -25,7 +24,10 @@ const ProductCarrinho = ({ produto }) => {
   return (
     <div className={styles.product}>
       <div>
-        <img src={produto.image} />
+        <img
+          src={`${import.meta.env.BASE_URL}imagens/${produto.image}`}
+          alt={produto.name}
+        />
         <section>
           <div className={styles.divButtons}>
             <input
