@@ -28,18 +28,3 @@ p {
   align-items: end;
   gap: 10px;
 }
-
-.divButtons {
-  width: 100px;
-  background-color: #f1f1f1;
-  background-color: red;
-  height: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.divButtons input {
-  background-color: transparent;
-  color: white;
-}
