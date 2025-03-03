@@ -1,0 +1,36 @@
+.HomeDiv {
+  width: 80vw;
+  min-height: 50vh;
+  margin: 5em auto;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.HomeDiv div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .HomeDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HomeDiv div div {
+    max-width: 250px;
+  }
+}

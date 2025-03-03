@@ -1,0 +1,38 @@
+.conteinerCarrinho {
+  background-color: #dbd7d7;
+  width: 100%;
+  max-width: 330px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  position: fixed;
+  margin-top: 60px;
+  padding: 10px 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  transform: translate(110%, 0);
+  transition: all 0.3s ease;
+}
+
+.activo {
+  transform: translate(0, 0);
+}
+
+.resumoCarrinho {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 10px 80px 10px;
+}
+
+.p {
+  flex-grow: 1;
+  font-size: 1.1em;
+  color: #a19797;
+  margin-top: 40vh;
+  text-align: center;
+}
