@@ -17,11 +17,16 @@
   gap: 20px;
 }
 
+.HomeDiv div div p {
+  font-size: 1.1em;
+  color: #a19797;
+}
+
 h2 {
   color: black;
 }
 
-.HomeDiv p {
+.HomeDiv .msgProdutoNaoEncontrado {
   text-align: center;
   margin: 0 auto;
   font-size: 1.1em;
