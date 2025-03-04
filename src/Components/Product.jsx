@@ -37,7 +37,7 @@ const Product = ({ product }) => {
   return (
     product.qtdEstoque > 0 && (
       <div className={styles.div}>
-        <img src={product.image} alt={product.name} />
+        <img src={product.image.replace(/^\//, "")} alt={product.name} />
         <h3>{product.name}</h3>
         <p>
           Preço:

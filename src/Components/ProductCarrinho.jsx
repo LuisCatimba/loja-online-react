@@ -24,7 +24,10 @@ const ProductCarrinho = ({ produto }) => {
   return (
     <div className={styles.product}>
       <div>
-        <img src={produto.image} alt={produto.name} />
+        <img
+          src={`${import.meta.env.BASE_URL}${produto.image.replace(/^\//, "")}`}
+          alt={produto.name}
+        />
         <section>
           <div className={styles.divButtons}>
             <input
