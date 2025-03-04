@@ -43,8 +43,7 @@ const Product = ({ product }) => {
         />
         <h3>{product.name}</h3>
         <p>
-          Preço:
-          {FormateString(product.preco, "AOA")}
+          Preço: <span>{FormateString(product.preco, "AOA")}</span>
         </p>
         <p>Estoque: {product.qtdEstoque}</p>
         <div className={styles.btns}>

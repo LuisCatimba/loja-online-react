@@ -19,8 +19,15 @@
 
 .HomeDiv div div p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: #4d4949;
+}
+
+.HomeDiv div div p span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4d4949;
+  margin-left: 15px;
 }
 
 h2 {
