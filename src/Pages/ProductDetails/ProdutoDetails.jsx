@@ -48,10 +48,7 @@ const ProductDetails = () => {
         <Loading />
       ) : (
         <div className={styles.productCard}>
-          <img
-            src={`${import.meta.env.BASE_URL}${product.image}`}
-            alt={product.name}
-          />
+          <img src={product.image} alt={product.name} />
           <h2>{product.name}</h2>
           <p>{formatString(product.preco, "AOA")}</p>
           <span>Sobre o produto</span>
