@@ -8,6 +8,7 @@ export const ProductCarrinhoProvider = ({ children }) => {
   const stateReducer = (produtosNoCarrinho, action) => {
     switch (action.type) {
       case "AddProduct":
+        console.log(produtosNoCarrinho);
         return [...produtosNoCarrinho, { ...action.payload, qtd: 1 }];
 
       case "DeleteProduct":
@@ -16,6 +17,7 @@ export const ProductCarrinhoProvider = ({ children }) => {
         );
 
       case "IncrementProduct": {
+        console.log(produtosNoCarrinho);
         const newProduct = {
           ...action.payload,
           qtd:
