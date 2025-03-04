@@ -8,7 +8,6 @@ export const ProductCarrinhoProvider = ({ children }) => {
   const stateReducer = (produtosNoCarrinho, action) => {
     switch (action.type) {
       case "AddProduct":
-        console.log([...produtosNoCarrinho, { ...action.payload, qtd: 1 }]);
         return [...produtosNoCarrinho, { ...action.payload, qtd: 1 }];
 
       case "DeleteProduct":
@@ -21,14 +20,9 @@ export const ProductCarrinhoProvider = ({ children }) => {
           ...action.payload,
           qtd:
             action.payload.qtd < action.payload.qtdEstoque
-              ? action.payload.qtd++
+              ? action.payload.qtd + 1
               : action.payload.qtd,
         };
-        console.log(
-          produtosNoCarrinho.map((produto) =>
-            produto.id === newProduct.id ? newProduct : produto
-          )
-        );
         return produtosNoCarrinho.map((produto) =>
           produto.id === newProduct.id ? newProduct : produto
         );
@@ -38,36 +32,19 @@ export const ProductCarrinhoProvider = ({ children }) => {
         const newProduct = {
           ...action.payload,
           qtd:
-            action.payload.qtd > 0 ? action.payload.qtd-- : action.payload.qtd,
+            action.payload.qtd > 0
+              ? action.payload.qtd - 1
+              : action.payload.qtd,
         };
-        console.log(
-          produtosNoCarrinho
-            .map((produto) => {
-              if (produto.id == newProduct.id) {
-                if (newProduct.qtd > 0) {
-                  return newProduct;
-                } else {
-                  return null;
-                }
-              } else {
-                return produto;
-              }
-            })
-            .filter((produto) => produto !== null)
-        );
         return produtosNoCarrinho
           .map((produto) => {
             if (produto.id == newProduct.id) {
-              if (newProduct.qtd > 0) {
-                return newProduct;
-              } else {
-                return null;
-              }
+              return newProduct;
             } else {
               return produto;
             }
           })
-          .filter((produto) => produto !== null);
+          .filter((produto) => produto.qtd > 0);
       }
 
       default:
