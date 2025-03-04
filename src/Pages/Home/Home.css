@@ -21,6 +21,14 @@ h2 {
   color: black;
 }
 
+.HomeDiv p {
+  flex-grow: 1;
+  text-align: center;
+  margin: auto;
+  font-size: 1.1em;
+  color: #a19797;
+}
+
 @media screen and (max-width: 400px) {
   .HomeDiv {
     width: 100%;
