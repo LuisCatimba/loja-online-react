@@ -25,7 +25,7 @@ import { BotaoVisivelContextProvider } from "./Context/ContextCarrinho";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/loja-online-react">
+      <HashRouter>
         <ProductCarrinhoProvider>
           <ProductContextProvider>
             <BotaoVisivelContextProvider>
