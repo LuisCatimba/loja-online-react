@@ -2,7 +2,7 @@
   {
     "name": "Nike Air Max",
     "preco": 25000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 15,
     "genero": "unissex",
     "image": "/imagens/OIP.jpeg",
     "coresDisponiveis": ["preto", "branco", "azul"],
@@ -16,7 +16,7 @@
   {
     "name": "Adidas Ultraboost",
     "preco": 28000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 10,
     "genero": "unissex",
     "image": "/imagens/Adidas Ultraboost.jpeg",
     "coresDisponiveis": ["preto", "cinza", "vermelho"],
@@ -30,7 +30,7 @@
   {
     "name": "Puma RS-X",
     "preco": 22000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 25,
     "genero": "unissex",
     "image": "/imagens/Puma RS-X.jpg",
     "coresDisponiveis": ["branco", "azul", "verde"],
@@ -44,7 +44,7 @@
   {
     "name": "Converse Chuck Taylor",
     "preco": 18000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 30,
     "genero": "unissex",
     "image": "/imagens/Converse Chuck Taylor.jpeg",
     "coresDisponiveis": ["preto", "branco", "vermelho"],
@@ -58,7 +58,7 @@
   {
     "name": "New Balance 990",
     "preco": 30000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 12,
     "genero": "unissex",
     "image": "/imagens/New Balance 990.jpeg",
     "coresDisponiveis": ["cinza", "azul", "preto"],
@@ -72,7 +72,7 @@
   {
     "name": "Reebok Classic Leather",
     "preco": 20000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 18,
     "genero": "unissex",
     "image": "/imagens/Reebok Classic Leather.jpeg",
     "coresDisponiveis": ["branco", "preto", "azul"],
@@ -86,7 +86,7 @@
   {
     "name": "Vans Old Skool",
     "preco": 17000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 22,
     "genero": "unissex",
     "image": "/imagens/Vans Old Skool.jpeg",
     "coresDisponiveis": ["preto", "branco", "vermelho"],
@@ -100,7 +100,7 @@
   {
     "name": "Asics Gel-Kayano",
     "preco": 26000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 14,
     "genero": "unissex",
     "image": "/imagens/Asics Gel-Kayano.jpeg",
     "coresDisponiveis": ["preto", "azul", "cinza"],
@@ -128,7 +128,7 @@
   {
     "name": "Brooks Ghost",
     "preco": 27000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 16,
     "genero": "unissex",
     "image": "/imagens/Brooks Ghost.avif",
     "coresDisponiveis": ["preto", "cinza", "azul"],
@@ -142,7 +142,7 @@
   {
     "name": "Nike Air Jordan 1",
     "preco": 35000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 8,
     "genero": "unissex",
     "image": "/imagens/Nike Air Jordan 1.jpeg",
     "coresDisponiveis": ["vermelho", "preto", "branco"],
@@ -156,7 +156,7 @@
   {
     "name": "Adidas NMD_R1",
     "preco": 29000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 19,
     "genero": "unissex",
     "image": "/imagens/Adidas NMD_R1.jpeg",
     "coresDisponiveis": ["preto", "branco", "cinza"],
@@ -170,7 +170,7 @@
   {
     "name": "Asics Gel-Nimbus",
     "preco": 28000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 17,
     "genero": "unissex",
     "image": "/imagens/Asics Gel-Nimbus.jpeg",
     "coresDisponiveis": ["preto", "azul", "branco"],
@@ -184,7 +184,7 @@
   {
     "name": "Saucony Triumph",
     "preco": 26000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 13,
     "genero": "unissex",
     "image": "/imagens/Saucony Triumph.jpeg",
     "coresDisponiveis": ["preto", "branco", "vermelho"],
@@ -198,7 +198,7 @@
   {
     "name": "Hoka One One Clifton",
     "preco": 30000,
-    "qtdEstoque": 20,
+    "qtdEstoque": 11,
     "genero": "unissex",
     "image": "/imagens/Hoka One One Clifton.jpeg",
     "coresDisponiveis": ["preto", "cinza", "azul"],
