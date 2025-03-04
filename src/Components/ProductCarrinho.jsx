@@ -34,6 +34,7 @@ const ProductCarrinho = ({ produto }) => {
               type="button"
               value="+"
               onClick={() => {
+                console.log("IncrementProduct");
                 dispatch({ type: "IncrementProduct", payload: produto });
               }}
             />
@@ -41,9 +42,10 @@ const ProductCarrinho = ({ produto }) => {
             <input
               type="button"
               value="-"
-              onClick={() =>
-                dispatch({ type: "DecrementProduct", payload: produto })
-              }
+              onClick={() => {
+                console.log("DecrementProduct");
+                dispatch({ type: "DecrementProduct", payload: produto });
+              }}
             />
           </div>
           <h4>{produto.name}</h4>
