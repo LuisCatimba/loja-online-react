@@ -25,7 +25,7 @@ const ProductCarrinho = ({ produto }) => {
     <div className={styles.product}>
       <div>
         <img
-          src={`${import.meta.env.BASE_URL}imagens/${produto.image}`}
+          src={`${import.meta.env.BASE_URL}imagens${produto.image}`}
           alt={produto.name}
         />
         <section>

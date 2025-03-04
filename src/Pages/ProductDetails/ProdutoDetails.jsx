@@ -49,7 +49,7 @@ const ProductDetails = () => {
       ) : (
         <div className={styles.productCard}>
           <img
-            src={`${import.meta.env.BASE_URL}imagens/${product.image}`}
+            src={`${import.meta.env.BASE_URL}imagens${product.image}`}
             alt={product.name}
           />
           <h2>{product.name}</h2>
