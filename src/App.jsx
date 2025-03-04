@@ -14,7 +14,7 @@ import Page404 from "./Pages/Page404/Page404";
 
 //Router
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 //Context
 
@@ -25,7 +25,7 @@ import { BotaoVisivelContextProvider } from "./Context/ContextCarrinho";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/loja-online-react">
         <ProductCarrinhoProvider>
           <ProductContextProvider>
             <BotaoVisivelContextProvider>
@@ -42,7 +42,7 @@ function App() {
             </BotaoVisivelContextProvider>
           </ProductContextProvider>
         </ProductCarrinhoProvider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
